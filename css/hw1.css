@@ -1,0 +1,155 @@
+header{
+	background: #808080;
+	background-image: url("Images/flywheel.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 6px;
+}
+
+body{
+	padding: 2px;
+	margin: 2px;
+	background: grey;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+h2{
+	color: #800080;
+}
+
+nav a{
+	color: #e6005c;
+	background: rgba(0,0,0,0.5);
+	text-decoration: none;
+	font-weight: bolder;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	font-size: x-large;
+	margin: 1px;
+	border: solid;
+	border-radius: 25px;
+	-webkit-transition: 2s ease;
+}
+
+a:hover{
+	color: black;
+	background: #669900;
+    width: 20%;
+    transform: scale(1.3,1.3);
+}
+
+.active{
+	color: #000000;
+	background: #e6005c;
+
+}
+
+.left{
+	background: #669900;
+	display: inline-block;
+	padding: 3px;
+	width: 200px;
+	float: left;
+}
+
+aside img{
+	display: block;
+	height: 144px;
+	width: 144px;
+	border: solid;
+	border-color: #000000;
+	border-width: 2px;
+	border-radius: 10px;
+    margin: 0 auto;
+	margin-bottom: 6px;
+	margin-top: 3px;
+}
+
+.right{
+	display: inline-block;
+	width: 83.2%;
+	float: left;
+	margin-left: 5px;
+	text-align: justify;
+	background: #cc6600;
+	font-size: larger;
+	padding: 7px;
+}
+
+table{
+	color:#000000;
+	margin: 0 auto;
+	border-spacing: 0;
+	border-radius: 2px;
+	font-family:arial,impact,"Lucida Console";
+}
+
+th{
+	background: #b800e6;
+	padding: 15px;
+	border-left: 1.5px solid white;
+	border-right: 1.5px solid white;
+	margin: 1px;
+	font-weight: bolder;
+	border-bottom: 5px solid #ff00ff;
+	vertical-align: center;
+	font-size: x-large;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 4px #cc6600;	
+}
+
+th:first-child{
+	border-left: 0;
+}
+
+th:last-child{
+	border-right: 0;
+}
+
+td{
+	background: #e066ff;
+	padding: 12px;
+	margin: 1px;
+	border: 1.5px solid white;
+	text-align: center;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: verdana,arial,impact;
+	vertical-align: center;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+tr{
+	color: rgba(0,0,0,0.6);
+}
+
+tr:first-child{
+	color: rgba(0,0,0,1);
+}
+
+tr:last-child>td{
+	border-bottom: 0;
+}
+
+tr>td:first-child{
+	border-left: 0;
+}
+
+tr>td:last-child{
+	border-right: 0;
+}
+
+tr:hover{
+	color:rgba(0,0,0,1);
+}

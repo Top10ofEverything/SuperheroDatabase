@@ -1,0 +1,114 @@
+body{
+	background : black;
+	font-size: larger;
+    color: yellow;
+}
+
+header{
+	text-align: center;
+	font-variant-caps: all-small-caps;
+	background-color: grey;
+	background-image: url("Images/Superheroes.jpg");
+	padding-bottom: 20px;
+	background-size: 100%; 
+}
+
+h1{
+	text-shadow: 2px 2px 10px #cc6600;
+	font-weight: bolder;
+	font-size: 300%;
+	color: #479917;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+}
+
+h2{
+	text-align: center;
+	color: orange;
+	font-variant-caps: all-small-caps;
+	font-size: 200%;
+}
+
+progress{
+	width: 50%;
+	text-align: justify-all;
+}
+
+nav a{
+	text-decoration: none;
+	color: aqua;
+	font-size: x-large;
+	font-weight: bold;
+	font-size: 100%;
+	font-variant-caps: all-small-caps;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	border: solid;
+	border-radius: 16px;
+	border-color: aqua;
+	border-width: 4px;
+	padding: 2px;
+	background-color: rgba(0,0,0,0.7);
+	-webkit-transition: 2s ease;
+}
+
+a:hover{
+	background-color: black;
+}
+
+.active{
+	color: #000000;
+	background: aqua;
+
+}
+
+.Abilities{
+	color : aqua;
+	font-weight: bold;
+}
+
+h3{
+	font-weight: bolder;
+	font-variant-caps: all-small-caps;
+	font-size: xx-large;
+	color: magenta;
+	font-size: 200%;
+}
+
+@media screen and (min-width: 720px){
+	header{
+	text-align: center;
+	font-variant-caps: all-small-caps;
+	background-color: grey;
+	background-image: url("Images/Pic.jpg");
+	padding-bottom: 20px;
+	background-size: 100%; 
+    }
+
+    p{
+    	display: inline-block;
+    	width: 45%;
+    	text-align: justify;
+    }
+
+    .Abilities{
+    	display: inline-block;
+    	float: right;
+    }
+}
+
+@media print{
+	body{
+		background: white;
+		color: black;
+	}
+
+	p{
+		color: black;
+	}
+
+	.Abilities{
+		color: black;
+	}
+}

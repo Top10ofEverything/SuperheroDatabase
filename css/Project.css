@@ -1,0 +1,88 @@
+body{
+	background: #B3B3B3;
+	font-size: 150%;
+	color: #FFFFFF;
+	margin: 4%;
+}
+
+h1{
+	background: #B3B3B3;
+	font-size: 150%;
+	color: green;
+	text-align: center;
+	padding-right: 0px;
+	font-variant: small-caps;
+}
+
+header{
+	background: #696969;
+	text-align: justify;
+	padding-bottom: 15px;
+}
+
+nav{
+	color: green;
+	font-variant: small-caps;
+	font-size: 125%;
+	font-family: Arial, Impact;
+	text-align: center;
+	font-weight: bolder;
+	padding-right: 2px;
+}
+
+h2{
+	color: #666666;
+	background-color: #00B7EA;
+}
+
+section{
+	display: inline-block;
+	width: 33%;
+	margin-right: 4px;
+	float: left;
+	padding-bottom: 5px;
+}
+
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	background: #696969;
+	clear: both;
+}
+
+img{
+	width: 10%;
+}
+
+/*#Achievments{
+	background-color: black;
+}*/
+
+nav a{
+	text-decoration: none;
+	color: purple;
+	display: inline-block;
+	background: black;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: aqua;
+	width: 22%;
+}
+
+a:hover{
+	background: yellow;
+	color: black;
+}
+
+header, footer{
+	background: linear-gradient(#ff9900 50%, #009933 100%);
+	background: -webkit-linear-gradient(#ff9900 50%, #009933 100%);
+	background: -moz-linear-gradient(#ff9900 50%, #009933 100%);
+	background: -o-linear-gradient(#ff9900 50%, #009933 100%);
+}
